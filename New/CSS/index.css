@@ -1,0 +1,289 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #F4F6F7;
+    color: #2C3E50;
+}
+/* Navbar */
+header {
+    background: #0A3D62;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    display: block;
+}
+
+/* Menu */
+nav ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul.menu li {
+    position: relative;
+    margin-left: 20px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    display: block;
+}
+
+/* Dropdown */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #1E90FF;
+    min-width: 220px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu li a {
+    color: white;
+    padding: 10px 15px;
+}
+
+.dropdown-menu li a:hover {
+    background: #2ECC71;
+    border-radius: 4px;
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hover effect for main menu */
+nav ul.menu li a:hover {
+    background: #083358;
+    border-radius: 5px;
+}
+
+/* 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: black;
+}
+
+.logo img {
+    height: 50px;   /* logo size */
+    /*width: auto;
+}*/
+/*
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(232, 227, 227);
+} */
+
+/* 
+header {
+    background: #0A3D62;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    im
+}
+
+header a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+} */
+
+
+
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: #1E90FF;
+    color: white;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+.hero-img {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* About Section with Video Background */
+.video-bg {
+    position: relative;
+    overflow: hidden;
+    padding: 80px 20px;
+    color: white;
+}
+
+/* Background Video */
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+    object-fit: cover;
+}
+
+/* Dark Overlay for Readability */
+.video-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+/* Content Styling */
+.about-content {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    
+}
+
+.feature {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+
+
+
+.student {
+    background: #12bb58;
+    color: white;
+}
+
+.student:hover {
+    background: rgb(36, 158, 44)
+}
+
+.parent {
+    background: #F1C40F;
+    color: white;
+}
+
+.parent:hover {
+    background: orange;
+}
+
+.admin {
+    background: #E74C3C;
+    color: white;
+}
+
+.admin:hover {
+    background: darkred;
+}
+
+
+/* 
+.student {
+     background: #2ECC71;
+     hover: background: pink;
+ }
+.parent  { 
+    background: #F1C40F; 
+}
+.admin   {
+     background: #E74C3C; 
+} */
+
+
+/* section {
+    padding: 40px;
+    text-align: center;
+}
+
+.roles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 0 0 10px #ccc;
+} */
+
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.roles {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 0 0 10px #ccc;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+
+footer {
+    background: #061F2F;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

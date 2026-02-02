@@ -6,10 +6,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+        background-image: url(/New/img/parentbag.png);
+    background-size: cover;
 }
 
 .login-box {
-    background: white;
+    /* background:white; */
     width: 360px;
     padding: 30px;
     border-radius: 10px;
@@ -18,12 +20,12 @@ body {
 }
 
 h2 {
-    color: #7d6608;
+    color: #0c0c0b;
 }
 
 .subtitle {
     font-size: 14px;
-    color: gray;
+    color: rgb(63, 61, 61);
     margin-bottom: 20px;
 }
 
@@ -46,7 +48,7 @@ button {
     width: 100%;
     padding: 12px;
     margin-top: 20px;
-    background: #f1c40f;
+    background: #58abf4;
     color: black;
     border: none;
     border-radius: 5px;
@@ -55,7 +57,7 @@ button {
 }
 
 button:hover {
-    background: #8e8359;
+    background: #1d71e0;
 }
 
 .forgot {
